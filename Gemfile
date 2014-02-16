@@ -12,6 +12,10 @@ gem 'protected_attributes'
 
 gem 'simple_form'
 
+group :development do
+    gem 'capistrano'
+end
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
